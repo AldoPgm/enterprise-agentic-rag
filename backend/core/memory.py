@@ -6,8 +6,8 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone, ServerlessSpec
 
-DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "manual_empresa.txt")
-INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "enterprise-rag")
+DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "codigo_civil_ejemplo.txt")
+INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "legal-rag")
 
 def get_vector_store():
     """

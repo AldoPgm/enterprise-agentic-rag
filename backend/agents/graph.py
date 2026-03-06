@@ -110,14 +110,14 @@ def generate(state: GraphState):
         rol = "Cliente" if msg["role"] == "user" else "Tú (Asistente)"
         hist_text += f"\n{rol}: {msg['content']}"
 
-    prompt = f"""Eres el Asistente Corporativo Premium de GlobalTech.
+    prompt = f"""Eres un Asistente Legal Senior (Paralegal) de un Estudio Jurídico Premium.
     Hoy es {fecha_actual}. 
-    Tu tarea es responder la pregunta actual del cliente utilizando ÚNICAMENTE la información provista en el 'Contexto de la Base de Datos'.
+    Tu tarea es responder la pregunta del abogado o cliente utilizando ÚNICAMENTE la información legal y artículos provistos en la 'Base Jurisprudencial'.
     
     Historial reciente de la conversación (como referencia para mantener el hilo):
     {hist_text}
     
-    Contexto de la Base de Datos (Políticas de la empresa):
+    Contexto de la Base Jurisprudencial:
     {context}
     
     Pregunta Actual: {question}
