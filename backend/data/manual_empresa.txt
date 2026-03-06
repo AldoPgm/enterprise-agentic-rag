@@ -1,0 +1,5 @@
+Este es el manual de operaciones de la empresa ficticia "GlobalTech".
+Cualquier empleado que trabaje a distancia tiene derecho a un bono mensual de $150 USD para cubrir gastos de internet y electricidad.
+Las vacaciones anuales son de 15 días hábiles, los cuales deben solicitarse a través del portal de Recursos Humanos con al least 3 semanas de anticipación.
+El horario laboral oficial es de 9:00 AM a 6:00 PM, de lunes a viernes.
+Cualquier problema técnico con el equipo de trabajo debe reportarse inmediatamente al canal de #soporte-it en Slack.
