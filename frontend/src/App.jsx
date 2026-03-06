@@ -115,8 +115,8 @@ export default function App() {
                 />
               </div>
               <div className="flex flex-col">
-                <h1 className="text-xl font-semibold tracking-tight leading-none text-zinc-50">GlobalTech</h1>
-                <span className="text-xs text-zinc-500 font-mono mt-1 mt-1">NEXUS_OS_v3.4</span>
+                <h1 className="text-xl font-semibold tracking-tight leading-none text-zinc-50">Firma Legal - Corp</h1>
+                <span className="text-xs text-zinc-500 font-mono mt-1 mt-1">LEGAL_NEXUS_v1.0</span>
               </div>
             </div>
 
@@ -139,10 +139,17 @@ export default function App() {
             </div>
 
             <div className="border-t border-zinc-800/50 pt-6 mt-auto">
-              <span className="text-[10px] font-mono tracking-widest text-zinc-500 uppercase mb-4 block">Knowledge Base</span>
-              <div className="glass-input rounded-xl p-3 flex items-center gap-3">
+              <span className="text-[10px] font-mono tracking-widest text-zinc-500 uppercase mb-4 block">Base Jurisprudencial</span>
+              <div className="glass-input rounded-xl p-3 flex items-center gap-3 mb-8">
                 <FileText className="text-zinc-500" />
-                <span className="text-sm font-medium text-zinc-300 truncate">manual_empresa.txt</span>
+                <span className="text-sm font-medium text-zinc-300 truncate">codigo_civil_ejemplo.txt</span>
+              </div>
+
+              <div className="flex flex-col items-center justify-center gap-1 opacity-60 hover:opacity-100 transition-opacity cursor-default">
+                <span className="text-[9px] font-mono tracking-widest text-zinc-500 uppercase">Powered by</span>
+                <span className="text-sm font-bold tracking-widest text-emerald-500 uppercase flex items-center gap-2">
+                  AGENTEER
+                </span>
               </div>
             </div>
           </motion.div>
@@ -227,7 +234,7 @@ export default function App() {
                 type="text"
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
-                placeholder="Commence query (e.g. Vacation policy)..."
+                placeholder="Inicia consulta legal (Ej. Resolución de contratos)..."
                 className="w-full glass-input rounded-2xl py-5 pl-12 pr-16 text-[15px] shadow-lg text-zinc-100 placeholder:text-zinc-600 focus:bg-zinc-900/80"
               />
               <button
